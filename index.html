@@ -4,41 +4,107 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Panificadora Santa Clara</title>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/ccde67fc05.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Santa Clara pães e doces</title>
   </head>
   <body>
     <header>
-      <img src="img/fx-top.jpg" alt="Panificadora Santa Clara" />
       <div class="social-icons">
-        <span class="social-icon"></span>
-        <span class="social-icon"></span>
+        <span class="social-icon"
+          ><a
+            href="https://www.facebook.com/pages/Padaria%20Santa%20Clara/221066391245304/"
+            target="_blank"
+            ><i class="fab fa-facebook"></i> </a
+        ></span>
+        <span class="social-icon"
+          ><a
+            href="https://www.instagram.com/panificadora_santaclaraoficial/"
+            target="_blank"
+            ><i class="fab fa-instagram-square"></i></a
+        ></span>
       </div>
     </header>
 
-    <section class="delivery">
-      <h1>Estamos trabalhando com delivery</h1>
-      <h2>whatsapp link</h2>
-      <p>telefone 1</p>
-      <p>telefone 2</p>
-    </section>
+    <section class="container">
+      <!-- title -->
+      <h2 class="title">Peça pelo nosso delivery</h2>
+      <div class="title-underline">
+        <div class="title-underline__center"></div>
+      </div>
+      <!-- /title -->
 
-    <section>
-      <div class="food_album">
-        <h1>veja nosso <a href="#"> cardapio </a></h1>
-        <img src="img/contra-fritas.jpg" alt="" />
-        <img src="img/contra-fritas.jpg" alt="" />
-        <img src="img/contra-fritas.jpg" alt="" />
-        <img src="img/contra-fritas.jpg" alt="" />
-        <img src="img/contra-fritas.jpg" alt="" />
-        <img src="img/contra-fritas.jpg" alt="" />
-        <img src="img/contra-fritas.jpg" alt="" />
-        <img src="img/contra-fritas.jpg" alt="" />
+      <div class="contacts">
+        <span class="contact"
+          ><a
+            href="https://wa.me/5511999980986"
+            target="_blank"
+            rel="peça pelo whatsapp"
+          >
+            <span class="contact-icon"><i class="fab fa-whatsapp"></i> </span>
+            <h3>9 9998-0986</h3></a
+          ></span
+        >
+        <span class="contact">
+          <span class="contact-icon phone"
+            ><i class="fas fa-phone-alt"></i
+          ></span>
+          <p>5687-2391</p></span
+        >
+        <span class="contact">
+          <span class="contact-icon phone"
+            ><i class="fas fa-phone-alt"></i
+          ></span>
+          <p>33602391</p></span
+        >
       </div>
     </section>
 
-    <section class="map">
-      <span class="map-icon"></span>
-      <p>endereço</p>
+    <!-- 
+    <section class="container">
+      <h1>veja nosso <a href="#"> cardapio </a></h1>
+      <img src="img/contra-fritas.jpg" alt="" />
+      <img src="img/contra-fritas.jpg" alt="" />
+      <img src="img/contra-fritas.jpg" alt="" />
+      <img src="img/contra-fritas.jpg" alt="" />
+      <img src="img/contra-fritas.jpg" alt="" />
+      <img src="img/contra-fritas.jpg" alt="" />
+      <img src="img/contra-fritas.jpg" alt="" />
+      <img src="img/contra-fritas.jpg" alt="" />
+    </section>
+-->
+    <!-- MAP SECTION -->
+    <section class="container">
+      <!-- title -->
+      <h2 class="title">Como chegar</h2>
+      <div class="title-underline">
+        <div class="title-underline__center"></div>
+      </div>
+      <!-- /title -->
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d256.3860130111013!2d-46.698189971646286!3d-23.653651707098295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6e6586fb9b821293!2sPadaria%20Santa%20Clara!5e0!3m2!1spt-BR!2sbr!4v1620259126905!5m2!1spt-BR!2sbr"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+        <div class="adress-info">
+          <span class="map-icon"><i class="fas fa-map-marked"></i></span>
+          <p>Rua Darwin, 435 - Alto da Boa Vista</p>
+        </div>
+      </div>
     </section>
   </body>
 </html>
