@@ -81,7 +81,26 @@ header {
 /* GALLERY */
 
 .gallery-container {
-  height: 70vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-link {
+  font-size: 1.5rem;
+
+  text-align: center;
+  margin: 0.5rem;
+  color: #243238;
+}
+
+.menu-link a {
+  color: #ae585b;
+  font-style: italic;
+}
+.menu-link a:hover {
+  color: #333452;
+  text-decoration: underline;
 }
 
 .gallery {
@@ -147,7 +166,10 @@ header {
 
 .map-container {
   display: flex;
+  flex-direction: column-reverse;
   align-items: center;
+
+  /* align-items: center; */
   margin: 0.5rem;
 }
 
@@ -155,7 +177,7 @@ header {
   width: 50%;
   display: flex;
   justify-content: center;
-  margin: 0 3rem;
+  margin: 3rem 3rem;
   font-size: 1.5rem;
 }
 
