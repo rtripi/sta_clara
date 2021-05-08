@@ -1,66 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  background: linear-gradient(rgb(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(img/bg.jpg) center;
-  background-size: 10% 1900px;
-  color: #243238;
-}
-
-.title-underline {
-  width: 10rem;
-  height: 0.2rem;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-  position: relative;
-  border-radius: 2rem;
-
-  background: #6c757d;
-  opacity: 0.5;
-}
-
-.title-underline__center {
-  position: absolute;
-  height: 0.4rem;
-  background: #ae585b;
-  width: 40%;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 2rem;
-}
-
-.title {
-  font-family: "Caveat", cursive;
-  text-align: center;
-  margin-bottom: 0.5rem;
-  margin-top: 0.1rem;
-  font-size: 3.5rem;
-  color: #d99d5e;
-}
-
-.container {
-  max-width: 77rem;
-  margin: 1rem auto;
-  background-color: rgb(248, 246, 246);
-  border: 0.3rem ridge #eee;
-  box-shadow: 11px 20px 17px -10px rgba(0, 0, 0, 0.35);
-}
-
-/* #############==WEBSITE==########################## */
-
 /* header */
 
 header {
-  background: url(img/fx-top.jpg);
+  background: url(../img/fx-top.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -169,28 +110,28 @@ header {
 }
 
 .food-bg-1 {
-  background: url(img/feijoada-pq.jpg) center / cover no-repeat;
+  background: url(../img/feijoada-pq.jpg) center / cover no-repeat;
 }
 .food-bg-2 {
-  background: url(img/contra-fritas.jpg) center/cover no-repeat;
+  background: url(../img/contra-fritas.jpg) center/cover no-repeat;
 }
 .food-bg-3 {
-  background: url(img/1_sanduíches.jpg) center/cover no-repeat;
+  background: url(../img/1_sanduíches.jpg) center/cover no-repeat;
 }
 .food-bg-4 {
-  background: url(img/metro-1.jpg) center/cover no-repeat;
+  background: url(../img/metro-1.jpg) center/cover no-repeat;
 }
 .food-bg-5 {
-  background: url(img/mini-salgados-150.jpg) center/cover no-repeat;
+  background: url(../img/mini-salgados-150.jpg) center/cover no-repeat;
 }
 .food-bg-6 {
-  background: url(img/tabua-frios.jpg) center/cover no-repeat;
+  background: url(../img/tabua-frios.jpg) center/cover no-repeat;
 }
 .food-bg-7 {
-  background: url(img/docinho-1.jpg) center/cover no-repeat;
+  background: url(../img/docinho-1.jpg) center/cover no-repeat;
 }
 .food-bg-8 {
-  background: url(img/bolo-1.jpg) center/cover no-repeat;
+  background: url(../img/bolo-1.jpg) center/cover no-repeat;
 }
 
 .img_container:hover {
