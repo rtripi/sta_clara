@@ -56,3 +56,54 @@ body {
   border: 0.3rem ridge #eee;
   box-shadow: 11px 20px 17px -10px rgba(0, 0, 0, 0.35);
 }
+
+/* contact */
+
+.contacts {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  color: #243238;
+  font-size: 1.3rem;
+}
+
+.contact a:first-child {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.contact:first-child :hover {
+  text-decoration: underline;
+  color: #26b34e;
+}
+
+.contact__zap {
+  font-size: 1.5rem;
+  color: #26b34e;
+  cursor: pointer;
+}
+
+.contact-icons {
+  padding-right: 1rem;
+}
+
+.contact:first-child .contact-icons {
+  font-size: 2rem;
+  color: #26b34e;
+}
+
+.phone {
+  margin-right: 0.5rem;
+}
+
+.telefone {
+  margin: 0rem 1rem;
+  color: #243238;
+}

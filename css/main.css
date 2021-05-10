@@ -31,53 +31,6 @@ header {
 
 /* / HEADER */
 
-/* DELIVERY */
-
-.contacts {
-  width: 30%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.contact {
-  display: flex;
-  justify-content: center;
-  margin: 1rem;
-  color: #243238;
-  font-size: 1.3rem;
-}
-
-.contact a {
-  display: flex;
-  font-size: 1.5rem;
-  color: #26b34e;
-  cursor: pointer;
-  margin: 1rem;
-}
-
-.contact:first-child:hover {
-  text-decoration: underline;
-  color: #26b34e;
-}
-
-.contact-icon {
-  padding-right: 1rem;
-}
-
-.contact:first-child .contact-icon {
-  font-size: 2rem;
-}
-
-.contact .phone {
-  margin-right: 0.5rem;
-}
-
-.contact p {
-  margin: 0rem 1.5rem;
-}
-
-/* / DELIVERY */
-
 /* GALLERY */
 
 .gallery-container {
@@ -166,18 +119,18 @@ header {
 
 .map-container {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row;
   align-items: center;
-
-  /* align-items: center; */
-  margin: 0.5rem;
+  justify-content: space-between;
+  margin: 2rem;
 }
 
 .adress-info {
   width: 50%;
   display: flex;
-  justify-content: center;
-  margin: 3rem 3rem;
+  align-items: center;
+
+  margin: 1.5rem;
   font-size: 1.5rem;
 }
 
