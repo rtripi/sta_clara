@@ -1,3 +1,17 @@
+html::-webkit-scrollbar {
+  width: 5px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #c4c4c450;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #c4c4c480;
+  border-radius: 90px;
+  border: 3px solid #c4c4c450;
+}
+
 /* header */
 
 header {
