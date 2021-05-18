@@ -128,3 +128,14 @@ body {
     margin: 0 0.5rem;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .contact__zap {
+    font-size: 0.8rem;
+  }
+
+  .telefone {
+    font-size: 0.8rem;
+    margin: 0 0.5rem;
+  }
+}

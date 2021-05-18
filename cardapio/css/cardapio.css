@@ -114,6 +114,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  .menu-section-items-title {
+    margin: 3rem 0rem;
+  }
   .menu-section-item > span {
     width: 20%;
   }
@@ -131,5 +134,11 @@
 
   .tel_menu {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .menu-section-item > span {
+    width: 30%;
   }
 }
