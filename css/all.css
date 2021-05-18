@@ -17,10 +17,6 @@ body {
   color: #243238;
 }
 
-/* body::-webkit-scrollbar {
-  background: red;
-} */
-
 .container {
   max-width: 77rem;
   margin: 0.7rem auto;
