@@ -60,7 +60,7 @@ body {
 /* contact */
 
 .contacts {
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
   text-align: center;
 }
@@ -106,4 +106,25 @@ body {
 .telefone {
   margin: 0rem 1rem;
   color: #243238;
+}
+
+@media screen and (max-width: 725px) {
+  .title-underline {
+    width: 8rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contact__zap {
+    font-size: 1rem;
+  }
+
+  .telefone {
+    font-size: 1rem;
+    margin: 0 0.5rem;
+  }
 }

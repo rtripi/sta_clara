@@ -112,3 +112,24 @@
   bottom: 50%;
   transform: translateY(-50%);
 }
+
+@media screen and (max-width: 800px) {
+  .menu-section-item > span {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .title_menu {
+    font-size: 1rem;
+    margin-top: 0.3rem;
+  }
+
+  .tel_menu {
+    font-size: 1rem;
+  }
+}
