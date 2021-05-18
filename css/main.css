@@ -149,6 +149,11 @@ header {
   margin: 2rem;
 }
 
+.map {
+  width: 600px;
+  height: 450px;
+}
+
 .adress-info {
   width: 50%;
   display: flex;
@@ -166,7 +171,6 @@ header {
   header {
     background-position: 100%;
     background-size: 120% 100%;
-    background-repeat: no-repeat;
   }
 
   .map-container {
@@ -182,7 +186,6 @@ header {
   header {
     background-position: 20%;
     background-size: 190% 100%;
-    background-repeat: no-repeat;
   }
 
   .gallery-container {
@@ -208,5 +211,22 @@ header {
   }
   .food-info {
     text-align: center;
+  }
+  .map-container {
+    margin: 0.5rem;
+  }
+  .map {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    background-position: 25%;
+    background-size: 350% 120%;
+  }
+
+  .gallery-container {
+    height: 80vh;
   }
 }
